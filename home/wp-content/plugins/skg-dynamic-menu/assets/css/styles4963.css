@@ -1,0 +1,94 @@
+/* Site Header */
+.skg-masthead {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.skg-logo{
+	width:20%;
+	text-align:left;
+}
+.skg-member-menu {
+	width:80%;
+	text-align:right;
+	margin:0px;
+}
+.skg-member-menu div, form{
+	display:inline-block;
+	padding:5px 20px;
+	font-size:15px;
+}
+@media screen and (max-width: 600px) {
+	.skg-masthead{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.skg-logo{
+		width:100%;
+		text-align:center;
+	}
+	.skg-member-menu {
+		text-align:center;
+		margin:0 auto;
+		padding:5px 10px 20px;
+	}
+}
+.skg-member-menu .search-submit {
+	display:none;
+}
+@media screen and (max-width: 875px){
+	.skg-masthead form {
+		display:none;
+	}
+}
+/* End Site Header */
+
+#student{
+	background-color: #0F8A13;
+	color: white;
+	border: none;
+	border-radius:2px;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#subscribe{
+	background-color: #EFEFEF;
+	border: none;
+	border-radius:2px;
+	padding: 8px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+#subscribe a {
+	color: #5E6768;
+}
+#subscribe a:visited {
+	background-color: #EFEFEF;
+}
+#subscribe:hover {
+	background-color: #E3E3E3;
+}
+#account{
+	padding: 8px 20px;
+	text-align: center;
+}
+#login{
+	padding: 8px 20px;
+	text-align: center;
+}
+.search-form{
+    padding:5px 20px;
+}

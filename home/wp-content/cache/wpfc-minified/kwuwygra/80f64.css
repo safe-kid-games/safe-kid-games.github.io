@@ -1,0 +1,221 @@
+#wrapper {
+margin-bottom: 20px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+#game-container {
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+#game-content {
+position: relative;
+height: 0;
+overflow: hidden;
+}
+#flash-content {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#game-iframe {
+position: absolute;
+top: 0;
+left: 0;
+background-color: #efefef;
+}
+#game-description {
+margin-bottom: 20px;
+}
+#game-instructions {
+background-color: #efefef;
+margin-bottom: 20px;
+padding: 20px;
+}
+#game-related-content {
+margin-bottom: 10px;
+}
+#full-screen-button {
+background-color: #f49e00;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 15px 5px;
+}
+#full-screen-button:hover {
+background-color: #ff6900;
+-webkit-transition-duration: 0.4s; 
+transition-duration: 0.4s; 
+} 
+#full-screen-button:disabled,
+#full-screen-button[disabled]{
+background-color: #F2F3F4;
+color: #cccccc;
+}
+#center-button {
+text-align: center;
+}
+#skg-classroom-btn {
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex; 
+-webkit-box-align:center; 
+-ms-flex-align:center; 
+align-items:center; 
+-webkit-box-pack:center; 
+-ms-flex-pack:center; 
+justify-content:center;
+border: 2px solid black;
+padding: 20px 5px;
+font-size: 16px;
+border-color: #4CAF50;
+background-color: #E8FBE9;
+color:green;
+text-align:center;
+margin-top:10px;
+margin-bottom:20px;
+}
+#skg-classroom-btn-txt {
+margin-left:10px;
+}
+#splash-container {
+display: block;
+margin-left: auto;
+margin-right: auto;  
+margin-bottom: 20px;
+margin-top: 30px;
+}
+#splash-content {
+position: relative;
+height: 0;
+overflow: hidden;
+}
+#splash-area {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #efefef;
+}
+#splash {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
+flex-direction: column;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000)) repeat scroll 0% 0% transparent;
+background: -o-linear-gradient(#000, #000) repeat scroll 0% 0% transparent;
+background: linear-gradient(#000, #000) repeat scroll 0% 0% transparent;
+height: 100%;
+width: 100%;
+margin:0px auto;
+}
+#play-button {
+background-color: #f49e00;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 20px;
+cursor: pointer;
+}
+#play-button:hover {
+background-color: #ff6900;
+-webkit-transition-duration: 0.4s; transition-duration: 0.4s;  
+}
+#game-image {
+height: 150px;
+width: 266px;
+}
+@media screen and (max-width: 500px) {
+#game-image {
+height: 50px;
+width: 88.66px;
+}
+}
+#game {
+margin:0px auto;
+text-align:center;
+}
+#skg-wrapper{
+padding-top:20px;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+}
+#skg-content {
+width:100%;
+text-align:center;
+}
+#skg-sidebar {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 300px;
+flex: 0 0 300px;
+margin-left:60px;
+overflow: hidden;
+}
+@media only screen and (max-width: 1079px) {
+#skg-sidebar {
+display: none;
+}
+}
+#pw-custom-close-btn {
+cursor: pointer;
+position:absolute;
+width: 32px;
+z-index: 2147483645;
+top:-42px;
+right:0px;
+}
+#pw-custom-close-btn .circle{
+display: inline-block !important;
+font-family: sans-serif !important;
+line-height: 0 !important;
+width: 32px;
+height: 32px;
+}
+.leaderboard{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+.leaderboard{
+min-height:120px;
+}
+}
+@media only screen and (max-width: 767px) {
+.leaderboard{
+min-height:56px;
+}
+}

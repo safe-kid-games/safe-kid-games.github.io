@@ -1,0 +1,125 @@
+html, body {
+overflow-x: hidden;
+}
+#skg-menu .menu-container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+font-family: "Comic Sans MS";
+}
+#skg-menu .menu-container * {
+box-sizing: border-box;
+}
+.full-width-bar {
+background: #207AB6; 
+padding: 10px 10px 20px;
+}
+#skg-menu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#skg-menu .menu-row:before,
+#skg-menu .menu-row:after {
+content: "";
+display: table;
+clear: both;
+}
+#skg-menu .menu-grade-games {
+float: left;
+min-height: 1px;
+width: 12.5%;  padding: 4px;
+}
+#skg-menu .outline, #skg-menu .outline * {
+outline: 1px solid #F6A1A1;
+}
+#skg-menu .menu-grade-games > p {
+padding: 0;
+margin: 0;
+text-align: center;
+color: #ffffff;
+}
+#skg-menu .menu-grade-games * {
+max-width: 100%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#skg-menu .menu-caption {
+text-align: center;
+display: none;
+color: #ffffff;
+}
+#skg-menu .menu-main-categories {
+float: left;
+min-height: 1px;
+width: 33.333333333333333333%;  padding: 3px;
+}
+#skg-menu .menu-main-categories span {
+display: none;
+}
+#skg-menu .menu-button {
+border: none;
+color: #ffffff;
+padding: 6px 2px;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 14px;
+width: 100%;
+margin: 0 auto;
+}
+#skg-menu .menu-blue {
+background-color: #0F4AFA;
+}
+#skg-menu .menu-orange {
+background-color: #D91E18;
+}
+#skg-menu .menu-purple {
+background-color: #B200FD;
+}
+#skg-menu .menu-green {
+background-color: #0D7711;
+}
+#skg-menu .menu-yellow {
+background-color: #135CA4;
+}
+#skg-menu .menu-magenta {
+background-color: #E10E6D;
+}
+@media (min-width: 576px) {
+#skg-menu .menu-grade-games {
+padding: 8px;
+width: 12.5%; }
+}
+@media (min-width: 768px) {
+#skg-menu .menu-grade-games {
+padding: 15px;
+}
+#skg-menu .menu-main-categories {
+width: 16.666666666666666%;
+}
+#skg-menu .menu-button {
+padding: 12px 2px;
+font-size: 14px;
+}
+#skg-menu .menu-main-categories span {
+display: inline-block;
+}
+}
+@media (min-width: 992px) {
+#skg-menu .menu-caption {
+display: block;
+}
+#skg-menu .menu-main-categories {
+width: 16.666666666666666%;
+}
+#skg-menu .menu-button {
+padding: 15px 2px;
+font-size: 16px;
+}
+#skg-menu .menu-main-categories span {
+display: inline-block;
+}
+}

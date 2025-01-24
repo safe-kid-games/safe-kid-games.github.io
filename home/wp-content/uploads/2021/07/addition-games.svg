@@ -1,0 +1,16 @@
+<svg width="400" height="225" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+  <path fill="#3680b8" d="M-4.148-2.619h406.679v230.305H-4.148z"/>
+  <g font-family="'Riffic-Bold','Riffic'" font-weight="700" font-size="37.5" fill="#fdfdfd">
+    <text x="131.65" y="89.6" transform="matrix(1.04061 0 0 1 53.13 14.815)">
+      A<tspan x="160.937 185.087 209.312 220.45 238 248.575 271.825" y="89.6 89.6 89.6 89.6 89.6 89.6 89.6">ddition</tspan>
+    </text>
+    <text x="149.369" y="135.433" transform="matrix(1.04061 0 0 1 53.13 14.815)">
+      Ga<tspan x="202.956 235.656 256.731" y="135.433 135.433 135.433">mes</tspan>
+    </text>
+  </g>
+  <path d="M150 63.5c0-11.59-9.41-21-21-21H31c-11.59 0-21 9.41-21 21v98c0 11.59 9.41 21 21 21h98c11.59 0 21-9.41 21-21v-98z" fill="#f1e61f"/>
+  <path d="M87.71 67.257H65.85v86.41l6.441 4.077h21.861v-86.41l-6.441-4.077zm-16.713 94.944l-9.606-6.08V62.8h27.61l9.605 6.08V162.2h-27.61z" fill="#fff" fill-rule="nonzero"/>
+  <path d="M38.843 126.655h86.387v-21.867l-4.076-6.442H34.767v21.867l4.076 6.442zm90.845 4.457h-93.3l-6.076-9.607V93.888h93.296l6.08 9.608v27.617z" fill="#fff" fill-rule="nonzero"/>
+  <path d="M127.459 104.141l-5.078-8.024v8.024H96.377V70.107l-8.02-5.079v5.079H71.643v34.034H37.616v16.718H32.54l5.075 8.024h34.027v26.01H63.62l8.023 5.08h24.734v-31.09h31.082v-24.742z" fill="#3a7daf" fill-rule="nonzero"/>
+  <path d="M122.381 96.117H88.357V65.03H63.62v31.088H32.54v24.742H63.62v34.035h24.737v-34.035h34.024V96.117z" fill="#42c6d1" fill-rule="nonzero"/>
+</svg>
